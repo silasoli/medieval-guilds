@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="shortcut icon"
+			href="assets/imgs/megumin-favicon.ico">
+	<title>Guildas Medievais</title>
+	<style>
+		html,
+		body {
+			min-height: 100vh;
+			margin: 0;
+			padding: 0;
+			color: white;
+		}
+
+
+		body {
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			background-image: url(assets/imgs/Guild.webp);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		.overlay {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.6);
+			z-index: -1;
+		}
+
+		.container {
+			z-index: 2;
+		}
+
+		#main {
+			z-index: 2;
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		p {
+			text-align: justify
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-dark bg-dark mb-2">
+			<div class="container-fluid d-flex justify-content-center">
+				<a class="navbar-brand" href="#">Guildas medievais</a>
+			</div>
+		</nav>
+	</header>
+
+	<section class="overlay"></section>
+
+	<section class="container" id="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2 class="mb-3">O que eram as guildas medievais?</h2>
+					<p>As guildas medievais eram associações de artesãos e comerciantes que desempenharam um papel
+						crucial
+						na Europa durante a Idade Média. Elas eram formadas por pessoas que tinham o mesmo ofício ou
+						estavam envolvidas no mesmo comércio e tinham o objetivo de proteger os interesses de seus
+						membros.
+					</p>
+				</div>
+				<div class="col-md-6">
+					<h2 class="mb-3">Importância das Guildas</h2>
+					<p>As guildas regulamentavam a qualidade da produção, estabeleciam padrões de trabalho, controlavam
+						os
+						preços e ofereciam apoio mútuo aos membros. Elas desempenharam um papel importante no
+						desenvolvimento das cidades medievais e na preservação do conhecimento artesanal.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="mb-3">Desenvolvimento das Guildas</h2>
+					<p>No início, as guildas eram pequenas associações de artesãos que se reuniam para proteger seus
+						segredos comerciais e artesanais. Com o tempo, elas se tornaram instituições poderosas,
+						desempenhando um papel fundamental na economia medieval.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h2 class="mb-3">Organização das Guildas</h2>
+					<p>Cada guilda tinha sua própria hierarquia e regras. Os aprendizes aprendiam com os mestres e, após
+						um
+						período de aprendizado, podiam se tornar artesãos qualificados e eventualmente mestres,
+						permitindo-lhes abrir seu próprio negócio.</p>
+				</div>
+				<div class="col-md-4">
+					<h2 class="mb-3">Aprendizado e Mestria</h2>
+					<p>As guildas eram responsáveis pelo treinamento de jovens aprendizes. O sistema de aprendizado era
+						rigoroso, e os aprendizes precisavam demonstrar habilidades e conhecimentos antes de se tornarem
+						mestres em suas profissões.</p>
+				</div>
+				<div class="col-md-4">
+					<h2 class="mb-3">Impacto nas Cidades</h2>
+					<p>As guildas desempenharam um papel vital no crescimento e na prosperidade das cidades medievais,
+						contribuindo para o desenvolvimento de artesanato, comércio e cultura.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="mb-3">Declínio das Guildas</h2>
+					<p>O declínio das guildas começou com o advento da Revolução Industrial, que trouxe mudanças
+						significativas na produção e no trabalho. No entanto, seu legado perdura na história europeia.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2 class="mb-3">Legado das Guildas</h2>
+					<p>Mesmo após seu declínio, as guildas deixaram um legado duradouro na forma de regulamentações
+						comerciais, tradições artesanais e a preservação de conhecimentos técnicos.</p>
+				</div>
+				<div class="col-md-6">
+					<h2 class="mb-3">Conclusão</h2>
+					<p>As guildas medievais desempenharam um papel fundamental na sociedade europeia durante a Idade
+						Média,
+						moldando a forma como o comércio e o artesanato eram realizados. Seu impacto ainda é visível nos
+						dias de hoje.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="bg-dark mt-auto" style="height: 50px;">
+		<p class="text-center text-white mb-0 mt-3">© 2023 P.K, Inc</p>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+	</script>
+</body>
+
+</html>
